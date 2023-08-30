@@ -1,0 +1,236 @@
+2023-06-12 19:44:38.254  INFO 8696 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 8696 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 19:44:38.256  INFO 8696 --- [restartedMain] com.SpringBoot.demo.Application          : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 19:44:39.930  INFO 8696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 19:44:39.965  INFO 8696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 19:44:39.971  INFO 8696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 19:44:40.176  INFO 8696 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 19:44:40.179  INFO 8696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 19:44:40.179  INFO 8696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1914 ms
+2023-06-12 19:44:44.923  INFO 8696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 19:44:44.931  INFO 8696 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-12 19:44:44.994  INFO 8696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 19:44:45.005  INFO 8696 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 7.064 seconds (JVM running for 1934.639)
+2023-06-12 19:44:45.011  INFO 8696 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name logs/application.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-06-12 19:45:03.817  INFO 8696 --- [RMI TCP Connection(34)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-12 19:45:03.838  INFO 8696 --- [RMI TCP Connection(34)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 19:45:07.184  INFO 4932 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 4932 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 19:45:07.187  INFO 4932 --- [restartedMain] com.SpringBoot.demo.Application          : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 19:45:07.283  INFO 4932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-12 19:45:07.283  INFO 4932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-12 19:45:08.900  INFO 4932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 19:45:08.915  INFO 4932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 19:45:08.915  INFO 4932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 19:45:09.178  INFO 4932 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 19:45:09.193  INFO 4932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 19:45:09.194  INFO 4932 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1910 ms
+2023-06-12 19:45:09.952  INFO 4932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 19:45:09.961  INFO 4932 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-12 19:45:10.040  INFO 4932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 19:45:10.071  INFO 4932 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 3.44 seconds (JVM running for 4.489)
+2023-06-12 19:45:11.108  INFO 4932 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-12 19:45:11.109  INFO 4932 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-12 19:45:11.113  INFO 4932 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-12 19:46:22.923  INFO 4932 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-12 19:46:22.948  INFO 4932 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 19:46:22.951  INFO 4932 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-12 19:46:25.603  INFO 7652 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 7652 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 19:46:25.605  INFO 7652 --- [restartedMain] com.SpringBoot.demo.Application          : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 19:46:25.696  INFO 7652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-12 19:46:25.696  INFO 7652 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-12 19:46:27.283  INFO 7652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 19:46:27.300  INFO 7652 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 19:46:27.300  INFO 7652 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 19:46:27.620  INFO 7652 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 19:46:27.638  INFO 7652 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 19:46:27.638  INFO 7652 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1941 ms
+2023-06-12 19:46:28.420  INFO 7652 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 19:46:28.432  INFO 7652 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-12 19:46:28.692  INFO 7652 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 19:46:28.718  INFO 7652 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 3.609 seconds (JVM running for 4.729)
+2023-06-12 19:46:29.940  INFO 7652 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-12 19:46:29.941  INFO 7652 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-12 19:46:29.943  INFO 7652 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-12 19:46:41.030  INFO 7652 --- [http-nio-8080-exec-1] com.SpringBoot.demo.Logger.LoggerTest    : Info message
+2023-06-12 19:46:41.031  WARN 7652 --- [http-nio-8080-exec-1] com.SpringBoot.demo.Logger.LoggerTest    : Warning message
+2023-06-12 19:46:41.031 ERROR 7652 --- [http-nio-8080-exec-1] com.SpringBoot.demo.Logger.LoggerTest    : Error message
+2023-06-12 19:47:48.949  INFO 7652 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-12 19:47:48.973  INFO 7652 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 19:47:48.976  INFO 7652 --- [RMI TCP Connection(8)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-12 19:47:53.496  INFO 7052 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 7052 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 19:47:53.499  INFO 7052 --- [restartedMain] com.SpringBoot.demo.Application          : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 19:47:53.586  INFO 7052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-12 19:47:53.587  INFO 7052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-12 19:47:55.119  INFO 7052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 19:47:55.131  INFO 7052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 19:47:55.132  INFO 7052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 19:47:55.404  INFO 7052 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 19:47:55.418  INFO 7052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 19:47:55.419  INFO 7052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1831 ms
+2023-06-12 19:47:56.115  INFO 7052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 19:47:56.126  INFO 7052 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-12 19:47:56.203  INFO 7052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 19:47:56.230  INFO 7052 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 3.421 seconds (JVM running for 5.628)
+2023-06-12 19:47:57.063  INFO 7052 --- [RMI TCP Connection(5)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-12 19:47:57.064  INFO 7052 --- [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-12 19:47:57.065  INFO 7052 --- [RMI TCP Connection(5)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-12 19:48:01.837  INFO 7052 --- [http-nio-8080-exec-1] com.SpringBoot.demo.Logger.LoggerTest    : Info message
+2023-06-12 19:48:01.837  WARN 7052 --- [http-nio-8080-exec-1] com.SpringBoot.demo.Logger.LoggerTest    : Warning message
+2023-06-12 19:48:01.837 ERROR 7052 --- [http-nio-8080-exec-1] com.SpringBoot.demo.Logger.LoggerTest    : Error message
+2023-06-12 19:51:29.286  INFO 7052 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-12 19:51:29.546  INFO 7052 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 19:51:29.548  INFO 7052 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-12 19:51:29.841  INFO 7052 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 7052 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 19:51:29.850  INFO 7052 --- [restartedMain] com.SpringBoot.demo.Application          : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 19:51:34.644  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 5076 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 19:51:34.647  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 19:51:34.746  INFO 5076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-12 19:51:34.747  INFO 5076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-12 19:51:36.289  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 19:51:36.302  INFO 5076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 19:51:36.303  INFO 5076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 19:51:36.568  INFO 5076 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 19:51:36.583  INFO 5076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 19:51:36.583  INFO 5076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1835 ms
+2023-06-12 19:51:37.336  INFO 5076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 19:51:37.343  INFO 5076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-06-12 19:51:37.428  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 19:51:37.453  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 3.314 seconds (JVM running for 4.395)
+2023-06-12 19:51:38.458  INFO 5076 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-12 19:51:38.459  INFO 5076 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-12 19:51:38.461  INFO 5076 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-12 19:54:35.327  INFO 5076 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-12 19:54:35.468  INFO 5076 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 19:54:35.470  INFO 5076 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-12 19:54:35.691  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 5076 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 19:54:35.692  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 19:54:37.405  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 19:54:37.406  INFO 5076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 19:54:37.418  INFO 5076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 19:54:37.568  INFO 5076 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 19:54:37.571  INFO 5076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 19:54:37.571  INFO 5076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1867 ms
+2023-06-12 19:54:38.467  INFO 5076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 19:54:38.471  INFO 5076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-06-12 19:54:38.568  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 19:54:38.581  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 2.989 seconds (JVM running for 185.522)
+2023-06-12 19:54:38.585  INFO 5076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-12 19:54:43.858  INFO 5076 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-12 19:54:43.858  INFO 5076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-12 19:54:43.860  INFO 5076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-12 20:15:55.452  INFO 5076 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-06-12 20:15:55.567  INFO 5076 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 20:15:55.568  INFO 5076 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-12 20:15:56.023  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 5076 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 20:15:56.024  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 20:15:57.740  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 20:15:57.741  INFO 5076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 20:15:57.741  INFO 5076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 20:15:58.049  INFO 5076 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 20:15:58.054  INFO 5076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 20:15:58.054  INFO 5076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1993 ms
+2023-06-12 20:15:58.949  INFO 5076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 20:15:58.956  INFO 5076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-06-12 20:15:59.019  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 20:15:59.047  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 3.131 seconds (JVM running for 1465.989)
+2023-06-12 20:16:02.879  INFO 5076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-12 20:16:17.025  INFO 5076 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-06-12 20:16:17.136  INFO 5076 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 20:16:17.377  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 5076 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 20:16:17.378  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 20:16:18.857  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 20:16:18.858  INFO 5076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 20:16:18.858  INFO 5076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 20:16:19.045  INFO 5076 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 20:16:19.047  INFO 5076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 20:16:19.047  INFO 5076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1666 ms
+2023-06-12 20:16:20.449  INFO 5076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 20:16:20.461  INFO 5076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-06-12 20:16:20.501  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 20:16:20.533  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 3.244 seconds (JVM running for 1487.475)
+2023-06-12 20:16:20.542  INFO 5076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-12 20:17:08.088  INFO 5076 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-06-12 20:17:08.220  INFO 5076 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 20:17:08.488  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 5076 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 20:17:08.489  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : The following 1 profile is active: "Test2"
+2023-06-12 20:17:10.152  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 20:17:10.154  INFO 5076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 20:17:10.154  INFO 5076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 20:17:10.341  INFO 5076 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 20:17:10.343  INFO 5076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 20:17:10.343  INFO 5076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1814 ms
+2023-06-12 20:17:10.993  INFO 5076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 20:17:10.999  INFO 5076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-06-12 20:17:11.067  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 20:17:11.084  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 2.698 seconds (JVM running for 1538.026)
+2023-06-12 20:17:11.087  INFO 5076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-12 20:17:25.064  INFO 5076 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2023-06-12 20:17:25.151  INFO 5076 --- [Thread-19] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 20:17:25.831  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 5076 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 20:17:25.831  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : The following 1 profile is active: "Test2"
+2023-06-12 20:17:27.126  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 20:17:27.128  INFO 5076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 20:17:27.128  INFO 5076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 20:17:27.324  INFO 5076 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 20:17:27.325  INFO 5076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 20:17:27.326  INFO 5076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1491 ms
+2023-06-12 20:17:31.303  INFO 5076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 20:17:31.309  INFO 5076 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-06-12 20:17:31.337  INFO 5076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 20:17:31.354  INFO 5076 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 5.784 seconds (JVM running for 1558.296)
+2023-06-12 20:17:31.357  INFO 5076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-12 20:19:44.112  INFO 5076 --- [RMI TCP Connection(33)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-12 20:19:44.131  INFO 5076 --- [RMI TCP Connection(33)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 20:19:46.995  INFO 13552 --- [restartedMain] com.SpringBoot.demo.Application          : Starting Application using Java 17.0.5 on Ubaidurrehman with PID 13552 (H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.loggers.Actuater.Profiller.towserver)
+2023-06-12 20:19:46.998  INFO 13552 --- [restartedMain] com.SpringBoot.demo.Application          : The following 1 profile is active: "Test2"
+2023-06-12 20:19:47.105  INFO 13552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-12 20:19:47.105  INFO 13552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-12 20:19:48.764  INFO 13552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-12 20:19:48.777  INFO 13552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-12 20:19:48.777  INFO 13552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-12 20:19:49.049  INFO 13552 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-06-12 20:19:49.063  INFO 13552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-12 20:19:49.063  INFO 13552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1957 ms
+2023-06-12 20:19:49.830  INFO 13552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 20:19:49.838  INFO 13552 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-06-12 20:19:49.935  INFO 13552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-12 20:19:49.962  INFO 13552 --- [restartedMain] com.SpringBoot.demo.Application          : Started Application in 3.494 seconds (JVM running for 4.555)
+2023-06-12 20:19:50.717  INFO 13552 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-12 20:19:50.718  INFO 13552 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-12 20:19:50.720  INFO 13552 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-12 20:32:31.594  INFO 13552 --- [RMI TCP Connection(20)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-12 20:32:31.623  INFO 13552 --- [RMI TCP Connection(20)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-12 20:32:31.626  INFO 13552 --- [RMI TCP Connection(20)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
