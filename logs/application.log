@@ -1,0 +1,61 @@
+2023-06-12 18:42:56.343  INFO 8620 --- [restartedMain] S.Boot.Movie.SpringBootApi1Application   : Starting SpringBootApi1Application using Java 17.0.5 on Ubaidurrehman with PID 8620 (H:\Spring Tool File\SpringBootSTS\SpringBoot.Logger\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.Logger)
+2023-06-12 18:42:56.346  INFO 8620 --- [restartedMain] S.Boot.Movie.SpringBootApi1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 18:42:56.442  INFO 8620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-12 18:42:56.443  INFO 8620 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-12 18:42:58.408  WARN 8620 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-06-12 18:42:58.445  INFO 8620 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-06-12 18:42:58.446  INFO 8620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2002 ms
+2023-06-12 18:42:59.476  INFO 8620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 18:42:59.484  INFO 8620 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-06-12 18:42:59.620  INFO 8620 --- [restartedMain] io.undertow                              : starting server: Undertow - 2.2.24.Final
+2023-06-12 18:42:59.653  INFO 8620 --- [restartedMain] org.xnio                                 : XNIO version 3.8.7.Final
+2023-06-12 18:42:59.677  INFO 8620 --- [restartedMain] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.7.Final
+2023-06-12 18:42:59.777  INFO 8620 --- [restartedMain] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2023-06-12 18:42:59.869  INFO 8620 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8080 (http)
+2023-06-12 18:42:59.894  INFO 8620 --- [restartedMain] S.Boot.Movie.SpringBootApi1Application   : Started SpringBootApi1Application in 4.064 seconds (JVM running for 5.376)
+2023-06-12 18:43:01.453  INFO 8620 --- [RMI TCP Connection(3)-127.0.0.1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-12 18:43:01.454  INFO 8620 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-12 18:43:01.456  INFO 8620 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-12 18:44:58.296  INFO 8620 --- [XNIO-1 task-1] S.Boot.Movie.Controller.MovieController  : Finding Ticket by ID >>>1
+2023-06-12 18:44:58.296 ERROR 8620 --- [XNIO-1 task-1] S.Boot.Movie.Controller.MovieController  : Its just Error check
+2023-06-12 18:44:58.296  WARN 8620 --- [XNIO-1 task-1] S.Boot.Movie.Controller.MovieController  : Its just Warning check
+2023-06-12 18:45:44.236  WARN 8620 --- [XNIO-1 task-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' not supported]
+2023-06-12 18:46:55.034  INFO 8620 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-06-12 18:46:55.040  INFO 8620 --- [Thread-5] io.undertow                              : stopping server: Undertow - 2.2.24.Final
+2023-06-12 18:46:55.044  INFO 8620 --- [Thread-5] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-12 18:46:55.174  INFO 8620 --- [restartedMain] S.Boot.Movie.SpringBootApi1Application   : Starting SpringBootApi1Application using Java 17.0.5 on Ubaidurrehman with PID 8620 (H:\Spring Tool File\SpringBootSTS\SpringBoot.Logger\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.Logger)
+2023-06-12 18:46:55.174  INFO 8620 --- [restartedMain] S.Boot.Movie.SpringBootApi1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 18:46:55.574  WARN 8620 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-06-12 18:46:55.577  INFO 8620 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-06-12 18:46:55.577  INFO 8620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 398 ms
+2023-06-12 18:46:55.782  INFO 8620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 18:46:55.786  INFO 8620 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-06-12 18:46:55.803  INFO 8620 --- [restartedMain] io.undertow                              : starting server: Undertow - 2.2.24.Final
+2023-06-12 18:46:55.817  INFO 8620 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8080 (http)
+2023-06-12 18:46:55.828  INFO 8620 --- [restartedMain] S.Boot.Movie.SpringBootApi1Application   : Started SpringBootApi1Application in 0.696 seconds (JVM running for 241.309)
+2023-06-12 18:46:55.831  INFO 8620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-12 18:47:16.592  INFO 8620 --- [XNIO-2 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-12 18:47:16.593  INFO 8620 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-12 18:47:16.596  INFO 8620 --- [XNIO-2 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-06-12 18:47:22.779  INFO 8620 --- [XNIO-2 task-1] S.Boot.Movie.Controller.MovieController  : Finding Ticket by ID >>>5
+2023-06-12 18:47:22.779 ERROR 8620 --- [XNIO-2 task-1] S.Boot.Movie.Controller.MovieController  : Its just Error check
+2023-06-12 18:47:22.780  WARN 8620 --- [XNIO-2 task-1] S.Boot.Movie.Controller.MovieController  : Its just Warning check
+2023-06-12 18:47:59.710  INFO 8620 --- [XNIO-2 task-1] S.Boot.Movie.Controller.MovieController  : Finding Ticket by ID >>>1
+2023-06-12 18:47:59.710 ERROR 8620 --- [XNIO-2 task-1] S.Boot.Movie.Controller.MovieController  : Its just Error check
+2023-06-12 18:47:59.710  WARN 8620 --- [XNIO-2 task-1] S.Boot.Movie.Controller.MovieController  : Its just Warning check
+2023-06-12 18:51:10.365  INFO 8620 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2023-06-12 18:51:10.367  INFO 8620 --- [Thread-7] io.undertow                              : stopping server: Undertow - 2.2.24.Final
+2023-06-12 18:51:10.369  INFO 8620 --- [Thread-7] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-06-12 18:51:10.473  INFO 8620 --- [restartedMain] S.Boot.Movie.SpringBootApi1Application   : Starting SpringBootApi1Application using Java 17.0.5 on Ubaidurrehman with PID 8620 (H:\Spring Tool File\SpringBootSTS\SpringBoot.Logger\target\classes started by Ubaid in H:\Spring Tool File\SpringBootSTS\SpringBoot.Logger)
+2023-06-12 18:51:10.473  INFO 8620 --- [restartedMain] S.Boot.Movie.SpringBootApi1Application   : No active profile set, falling back to 1 default profile: "default"
+2023-06-12 18:51:10.860  WARN 8620 --- [restartedMain] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-06-12 18:51:10.862  INFO 8620 --- [restartedMain] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-06-12 18:51:10.863  INFO 8620 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 387 ms
+2023-06-12 18:51:11.033  INFO 8620 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-12 18:51:11.038  INFO 8620 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-06-12 18:51:11.052  INFO 8620 --- [restartedMain] io.undertow                              : starting server: Undertow - 2.2.24.Final
+2023-06-12 18:51:11.078  INFO 8620 --- [restartedMain] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 8080 (http)
+2023-06-12 18:51:11.092  INFO 8620 --- [restartedMain] S.Boot.Movie.SpringBootApi1Application   : Started SpringBootApi1Application in 0.658 seconds (JVM running for 496.574)
+2023-06-12 18:51:11.094  INFO 8620 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-12 18:57:42.180  INFO 8620 --- [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-12 18:57:42.182  INFO 8620 --- [RMI TCP Connection(21)-127.0.0.1] io.undertow                              : stopping server: Undertow - 2.2.24.Final
